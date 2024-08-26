@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'todos',
+    'rest_framework',
     'corsheaders',
 ]
 
@@ -178,6 +179,12 @@ CORS_ALLOW_HEADERS = [
     'Access-Control-Allow-Origin',
 ]
 
+
+REST_FRAMEWORK = {
+    'DEFAULT_RENDERER_CLASSES': (
+        'rest_framework.renderers.JSONRenderer',
+    ),
+}
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/4.2/howto/static-files/
