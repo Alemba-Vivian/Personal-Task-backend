@@ -33,7 +33,7 @@ git clone git@github.com:Alemba-Vivian/Personal-Task-backend.git
 
 Move into the project directory using
 
-cd PersonalTasks
+cd Personal-Task-backend
 
 ## 3. Create a Virtual Environment
 A virtual environment helps to keep your project dependencies isolated. Create a virtual environment by running:
